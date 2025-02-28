@@ -33,9 +33,10 @@ STEP_FUNCTION_ARN="your-step-function-arn"
 
 ### ⚙️ Jsons
 
-Before running the test, set up the Jsons that you want to run:
+Before running the test, set up the Jsons (1 or multiples) that you want to run:
 
 ```json
+[
   {
     "clientName": "",
     "sqlServerSettings": {
@@ -48,6 +49,7 @@ Before running the test, set up the Jsons that you want to run:
       "visionGroupName": "All"
     }
   },
+]
 ```
 
 ## 🚀 Running the Test
